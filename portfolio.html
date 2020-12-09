@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <!-- Header og menu -->
+
+    <header>
+        <a class="gfs" href="index.html">
+            <img src="img/logo.png" alt="GFS Logo">
+        </a> 
+            
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="img/menu.png" alt="MENU"></a>
+            <div class="menu">
+                <a class="item" href="index.html">
+                    Forside
+                </a>
+                <a class="item" href="portfolio.html">
+                    Portefølje
+                </a>
+                <a class="item" href="aboutme.html">
+                    Om mig
+                </a>
+                <a class="item" href="contact.html">
+                    Kontakt
+                </a>
+            </div>
+            
+        </div>
+          
+        <span class="span" style="cursor:pointer" onclick="openNav()"><img src="img/menu.png" alt="MENU"></span>
+          
+        <script>
+            function openNav() {
+            document.getElementById("mySidenav").style.width = "100%";
+            }
+          
+            function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+
+
+        <!-- Desktop -->
+
+        <div class="topnav">
+            <nav>
+                <ul>
+                    <li>
+                        <a class="item" href="index.html">
+                            Forside
+                        </a>
+                    </li>
+                    <li>
+                        <a class="item" href="portfolio.html">
+                            Portefølje
+                        </a>
+                    </li>
+                    <li>
+                        <a class="item" href="aboutme.html">
+                            Om mig
+                        </a>
+                    </li>
+                    <li>
+                        <a class="item" href="contact.html">
+                            Kontakt
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="Portfolio-top">
+        <h1>
+            Portefølje
+        </h1>
+    </div>
+
+    <hr class="port-first">
+
+    <section class="p-p">
+        <a href="./portfolio-pp.html">
+            <div class="personlige-p">
+                <h2>Personlige projekter</h2>
+            </div>
+
+            <div class="img-size">
+        
+            </div>
+        </a>
+    </section>
+    
+    <hr class="port">
+    
+    <section class="t-p">
+        <a href="./portfolio-projects.html">
+            <div class="tidligere">
+                <h2>Projekter</h2>
+            </div>
+
+            <div class="img-size2">
+        
+            </div>
+        </a>
+    </section>
+
+    <hr class="port">
+
+    <footer class="main-footer">
+        <hr>
+        <div class="main-footer-all">
+            <div>
+                <p>Email:</p>
+                <p>Placeholder@gmail.com</p>
+                <p>Telefon:</p>
+                <p>+45 xx xx xx xx</p>
+            </div>
+            <div class="sociale-all">
+                <img class="fb-all" src="img/fb.png" alt="Facebook">
+                <img class="ig-all" src="img/ig.png" alt="Instagram">
+                <img class="li-all" src="img/li.png" alt="Linkedin">
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

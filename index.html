@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <!-- Header og menu -->
+
+    <header>
+        <a class="gfs" href="index.html">
+            <img src="img/logo.png" alt="GFS Logo">
+        </a> 
+            
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="img/menu.png" alt="MENU"></a>
+            <div class="menu">
+                <a class="item" href="index.html">
+                    Forside
+                </a>
+                <a class="item" href="portfolio.html">
+                    Portefølje
+                </a>
+                <a class="item" href="aboutme.html">
+                    Om mig
+                </a>
+                <a class="item" href="contact.html">
+                    Kontakt
+                </a>
+            </div>
+            
+        </div>
+          
+        <span class="span" style="cursor:pointer" onclick="openNav()"><img src="img/menu.png" alt="MENU"></span>
+          
+        <script>
+            function openNav() {
+            document.getElementById("mySidenav").style.width = "100%";
+            }
+          
+            function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+
+
+        <!-- Desktop -->
+
+        <div class="topnav">
+            <nav>
+                <ul>
+                    <li>
+                        <a class="item" href="index.html">
+                            Forside
+                        </a>
+                    </li>
+                    <li>
+                        <a class="item" href="portfolio.html">
+                            Portefølje
+                        </a>
+                    </li>
+                    <li>
+                        <a class="item" href="aboutme.html">
+                            Om mig
+                        </a>
+                    </li>
+                    <li>
+                        <a class="item" href="contact.html">
+                            Kontakt
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- quote -->
+
+    <div class="quote">
+        <img src="./img/bulb.png">
+        <div class="quote-tekst">
+            <h1>Lorem, ipsum.</h1>
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. At illum laudantium earum error culpa commodi officia voluptate harum rerum odit?</h2>
+            <hr>
+            <h3>Lorem, ipsum.</h3>
+        </div>
+    </div>
+
+    <hr class="space-between">
+
+    <!-- Genveje til portefølje og om mig -->
+
+    <h2 class="f-o">Se mit arbejde</h2>
+
+    <!-- Personlige projekter -->
+
+    <section class="pp">
+        <img src="img/skitse dukke.png" alt="personlige projekter">
+        <div>
+            <p>Interesseret i at se mine personlige projekter?</p>
+            <a href="portfolio-pp.html">
+                <button>Se mine personlige projekter</button>
+            </a>
+            
+        </div>
+    </section>
+
+    <!-- Tidligere projekter -->
+
+    <section class="tp">
+        <img src="img/Computermand.png" alt="tidligere projekter">
+        <div>
+            <p>Interesseret i at se mine tidligere projekter?</p>
+            <a href="portfolio-projects.html">
+                <button>Se mine tidligere projekter</button>
+            </a>
+              
+        </div>
+    </section>
+
+    <!-- Om mig -->
+
+    <h2 class="f-o">Hvem er jeg?</h2>
+
+    <section class="mig-side">
+        <img src="img/mig.png" alt="mig">
+        <a href="aboutme.html">
+           <button>Mere om mig</button> 
+        </a>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="footer-f">
+        <img class="doodle" src="img/doodle.png">
+        <div class="tekst-footer">
+            <div>
+                <p>Email:</p>
+                <p>Placeholder@gmail.com</p>
+                <p>Telefon:</p>
+                <p>+45 xx xx xx xx</p>
+            </div>
+            <div class="sociale">
+                <img class="fb" src="img/fb.png" alt="Facebook">
+                <img class="ig" src="img/ig.png" alt="Instagram">
+                <img class="li" src="img/li.png" alt="Linkedin">
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

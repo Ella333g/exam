@@ -1,0 +1,437 @@
+/*font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+/* farver */
+
+:root{
+    --db:#696DBF;
+    --lb: #7E81BF;
+    --white:#fff;
+}
+
+/*header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    top: 0;
+    height: 88px;
+    width: 100%;
+    background-color: var(--white);
+    border-bottom: 2px solid var(--db);
+}
+
+.gfs{
+    align-self: center;
+}
+
+.gfs img{
+    height: 90px;
+    width: 100px;
+    margin: 2px;
+}
+
+/*menu*/
+
+.topnav {
+    /* For desktop */
+    display: none 
+}
+
+.span {
+    position: absolute;
+    right: 0;
+    padding: 1.6rem;
+    font-size: 24px;
+}
+
+.span img{
+    width: 40px;
+}
+
+
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    text-align:left;
+    background-color: var(--white);
+}
+  
+.sidenav a{
+    padding: 8px 8px 8px 0px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'nunito', sans-serif;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav img{
+    width: 40px;
+}
+
+.sidenav .menu {
+padding-top: 88px;
+}
+
+.sidenav .menu .item {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    border-top: 2px solid black;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.sidenav .menu .item img {
+    height: 16px;
+    width: 16px;
+    padding: 8px 32px 8px 8px;
+}
+  
+.sidenav a:hover{
+    color: var(--white);
+}
+  
+.sidenav .closebtn {
+    position: absolute;
+    right: 0;
+    font-size: 24px;
+    padding: 1.6rem;
+    color: var(grey);
+}
+
+/* footer */
+
+.main-footer-all{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.main-footer p{
+    margin-bottom: 0;
+}
+
+.sociale-all{
+    margin-top: 30px;
+}
+
+.fb-all{
+    height: 7.5vh;
+}
+
+.ig-all{
+    height: 7vh;
+    margin-bottom: 2px;
+}
+
+.li-all{
+    height: 5.9vh;
+    margin-bottom: 7px;
+    margin-left: 4px;
+}
+
+footer p{
+    font-size: 17px;
+    color: var(--lb);
+    font-family: 'nunito', sans-serif;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+footer hr{
+    border: 2px solid var(--lb);
+    background-color: var(--lb);
+}
+
+.fb{
+    height: 7.5vh;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.ig{
+    height: 7vh;
+    margin-bottom: 2px;
+}
+
+.li{
+    height: 5.9vh;
+    margin-top: 4px;
+}
+
+/* footer forside*/
+
+.footer-f .doodle{
+    width: 100%;
+    margin-top: 7rem;
+}
+
+.tekst-footer{
+    display: flex;
+    z-index: 1;
+    position: absolute;
+    top: 151%;
+    margin-top: 700px;
+}
+
+.tekst-footer .sociale{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.footer-f p{
+    font-size: 17px;
+    font-weight: bold;
+    color: var(--lb);
+    font-family: 'nunito', sans-serif;
+    font-weight: bold;
+    margin-top: 0;
+    padding-left: 10px;
+    margin-bottom: 6px;
+}
+
+
+
+/*Forside*/
+
+/*quote*/
+
+.quote img{
+    width: 100%;
+    height: 50vh;
+    opacity: 50%;
+    z-index: 2;
+}
+
+.quote-tekst{
+    text-align: center;
+    font-family: 'fredoka one', sans-serif;
+    position: absolute;
+    top: 0;
+    margin-top: 110px;
+    z-index: 1;
+    margin-bottom: 10px;
+}
+
+.quote hr{
+    border: 1px solid black;
+    background-color: black;
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
+.quote h1{
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+.quote h2{
+    margin-top: 3rem;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.space-between{
+    border: 2px solid black;
+    background-color: black;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    width: 270px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    margin-top: 494px;
+}
+
+/*Genveje*/
+
+.f-o{
+    font-family: 'fredoka one', sans-serif;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+/*Genveje til mine personlige projekter*/
+
+.pp p{
+    font-size: 17px;
+    color: var(--db);
+    font-family: 'nunito', sans-serif;
+    font-weight: bold;
+    margin-right: 2px;
+    text-align: center;
+}
+
+.pp img{
+    height:25vh
+}
+
+.pp div{
+    flex-direction: row;
+    margin-top: 45px;
+    justify-content: center;
+}
+
+.pp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.pp button{
+    font-size: 17px;
+    padding: 10px;
+    color: var(--white);
+    font-family: 'fredoka one', sans-serif;
+    background-color: var(--lb);
+    border-color: var(--db);
+    border-width: 3px;
+    border-radius: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*Genveje til mine tidligere projekter*/
+
+.tp p{
+    font-size: 17px;
+    color: var(--db);
+    font-family: 'nunito', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tp img{
+    height: 20vh;
+}
+
+.tp div{
+    flex-direction: row;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.tp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 4rem;
+}
+
+.tp button{
+    font-size: 17px;
+    padding: 10px;
+    color: var(--white);
+    font-family: 'fredoka one', sans-serif;
+    background-color: var(--lb);
+    border-color: var(--db);
+    border-width: 3px;
+    border-radius: 30px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+/*Genvej til om mig*/
+.mig-side{
+    text-align: center;
+}
+
+.mig-side img{
+    margin-bottom: 13px;
+    height: 30vh;
+}
+
+.mig-side button{
+    font-size: 17px;
+    padding: 10px;
+    color: var(--white);
+    font-family: 'fredoka one', sans-serif;
+    background-color: var(--lb);
+    border-color: var(--db);
+    border-width: 3px;
+    border-radius: 30px;
+}
+
+/*portefølje*/
+
+.Portfolio-top h1{
+    font-family: 'fredoka one', sans-serif;
+    text-align: center;
+}
+
+.port-first{
+    border: 2px solid black;
+    background-color: black;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 5rem;
+}
+
+.personlige-p h2{
+    font-family: 'nunito', sans-serif;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.img-size{
+    background-image: url(/img/rain.jpg);
+    height: 200px;
+    background-size: cover;
+    background-position: center 60%;
+    margin-bottom: 1rem;
+}
+
+.img-size2{
+    background-image: url(/img/kode.png);
+    height: 200px;
+    background-size: cover;
+    background-position: center 60%;
+    margin-bottom: 1rem;
+    z-index: 2;
+}
+
+.img-size2 a{
+    width: 100%;
+    height: 200px;
+}
+
+.tidligere h2{
+    font-family: 'nunito', sans-serif;
+    text-align: center;
+}
+
+.port{
+    border:1px solid black;
+    background-color: black;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 4rem;
+}
+
+.t-p a {
+    z-index: 1;
+    text-decoration: none;
+    color: black;
+}
+
+.p-p a {
+    z-index: 1;
+    text-decoration: none;
+    color: black;
+}
