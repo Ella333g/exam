@@ -437,8 +437,54 @@ footer hr{
 }
 
 /* portefølje projekter */
+/* personlige projekter */
+
+/* cartoon tegning */
+.p-p1{
+    background-image: url(/img/bulb.png);
+    height: 290px;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 1rem;
+    margin: 30px;
+}
+
+/* Tus tegning */
+
+.p-p2{
+    background-image: url(/img/sad.jpg);
+    height: 290px;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 1rem;
+    margin: 30px;
+}
+
+/* blyands tegning */
+
+.p-p3{
+    background-image: url(/img/flame.jpg);
+    height: 290px;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 1rem;
+    margin: 30px;
+}
+
+/* Tegninger for frivillige job */
+
+.p-p4{
+    background-image: url(/img/frivillig.jpg);
+    height: 290px;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 1rem;
+    margin: 30px;
+}
+
+/* tidligere projekter */
 /* første projekt (DNR - rumrejse)*/
-/* Billedet */
+/* Billede */
 .h-l-b{
     background-image: url(/img/Rumraket.png);
     height: 200px;
@@ -479,7 +525,7 @@ footer hr{
 }
 
 /* andet projekt (Dans, dans, dans 1. del)*/
-/* Billedet */
+/* Billede */
 .h-l-b2{
     background-image: url(/img/dans.png);
     height: 200px;
@@ -489,39 +535,8 @@ footer hr{
     margin: 30px;
 }
 
-/* overskrift */
-.hjemmesider2 h2{
-    text-align: center;
-    margin-top: 2rem;
-    font-family: 'nunito', sans-serif;
-}
-
-/* Tekst og link */
-.hjemmesider2 p{
-    text-align: center;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-left: 12px;
-    padding-right: 12px;
-    font-family: 'nunito', sans-serif;
-}
-
-/* Tekst og link */
-.hjemmesider2 a{
-    text-decoration: none;
-    color: black;
-}
-
-.hjemmesider2 hr{
-    border: 1px solid black;
-    background-color: black;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 3rem;
-}
-
 /* tredje projekt (dans, dans, dans. del 2)*/
-/* Billedet */
+/* Billede */
 .h-l-b3{
     background-image: url(/img/dans\ 2.png);
     height: 200px;
@@ -529,36 +544,6 @@ footer hr{
     background-position: cover 60%;
     margin-bottom: 1rem;
     margin: 30px;
-}
-
-/* overskrift */
-.hjemmesider3 h2{
-    text-align: center;
-    margin-top: 2rem;
-    font-family: 'nunito', sans-serif;
-}
-
-/* Tekst og link */
-.hjemmesider3 p{
-    text-align: center;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-left: 12px;
-    padding-right: 12px;
-    font-family: 'nunito', sans-serif;
-}
-
-.hjemmesider3 a{
-    text-decoration: none;
-    color: black;
-}
-
-.hjemmesider3 hr{
-    border: 1px solid black;
-    background-color: black;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 3rem;
 }
 
 /* fjerde projekt (bag rettet, del 1)*/
@@ -572,36 +557,6 @@ footer hr{
     margin: 30px;
 }
 
-/* overskrift */
-.hjemmesider4 h2{
-    text-align: center;
-    margin-top: 2rem;
-    font-family: 'nunito', sans-serif;
-}
-
-/* Tekst og link */
-.hjemmesider4 p{
-    text-align: center;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-left: 12px;
-    padding-right: 12px;
-    font-family: 'nunito', sans-serif;
-}
-
-.hjemmesider4 a{
-    text-decoration: none;
-    color: black;
-}
-
-.hjemmesider4 hr{
-    border: 1px solid black;
-    background-color: black;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 3rem;
-}
-
 /* femte projekt (video projekt)*/
 /* Billedet */
 .h-l-b5{
@@ -613,36 +568,6 @@ footer hr{
     margin: 30px;
 }
 
-/* overskrift */
-.hjemmesider5 h2{
-    text-align: center;
-    margin-top: 2rem;
-    font-family: 'nunito', sans-serif;
-}
-
-/* Tekst og link */
-.hjemmesider5 p{
-    text-align: center;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-left: 12px;
-    padding-right: 12px;
-    font-family: 'nunito', sans-serif;
-}
-
-.hjemmesider5 a{
-    text-decoration: none;
-    color: black;
-}
-
-.hjemmesider5 hr{
-    border: 1px solid black;
-    background-color: black;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 3rem;
-}
-
 /* sjette projekt (Bag rettet del 2)*/
 /* Billedet */
 .h-l-b6{
@@ -652,36 +577,6 @@ footer hr{
     background-position: cover 60%;
     margin-bottom: 1rem;
     margin: 30px;
-}
-
-/* overskrift */
-.hjemmesider6 h2{
-    text-align: center;
-    margin-top: 2rem;
-    font-family: 'nunito', sans-serif;
-}
-
-/* Tekst og link */
-.hjemmesider6 p{
-    text-align: center;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-left: 12px;
-    padding-right: 12px;
-    font-family: 'nunito', sans-serif;
-}
-
-.hjemmesider6 a{
-    text-decoration: none;
-    color: black;
-}
-
-.hjemmesider6 hr{
-    border: 1px solid black;
-    background-color: black;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 5rem;
 }
 
 /* Undersider under projekter */
@@ -854,3 +749,52 @@ footer hr{
     margin-bottom: 1rem;
     margin: 30px; 
 }
+
+/* Om mig side */
+
+/* overskrift */
+.about-top h1{
+    text-align: center;
+    font-family: 'fredoka one', sans-serif;
+    margin-top: 2rem;
+}
+
+/* top bokse */
+.about-me p{
+    font-size: 17px;
+    font-family: 'nunito', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.about-me img{
+    width: 150px;
+}
+
+.about-me div{
+    flex-direction: row;
+    margin-right: 10px;
+    margin-left: 10px;
+    justify-content: center;
+}
+
+.about-me{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 1rem;
+}
+
+/* tekst */
+.a-m-e{
+    margin-bottom: 4rem;
+}
+.a-m-e p{
+    font-size: 17px;
+    font-family: 'nunito', sans-serif;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 0;
+}
+
