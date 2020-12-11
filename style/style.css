@@ -162,7 +162,7 @@ footer hr{
 
 .fb{
     height: 7.5vh;
-    padding-bottom: 6xp: 
+    padding-bottom: 6xp; 
 }
 
 .ig{
@@ -826,3 +826,343 @@ footer hr{
     margin-top: 0;
 }
 
+@media screen and (min-width:1000px){
+
+    /* logo */
+    .gfs{
+        align-self: unset;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    header img{
+        left: 0;
+    }
+
+    header{
+        height: 100px;
+        flex-direction: row;
+    }
+    
+    /* Navigation */
+
+    .topnav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    nav {
+        margin-right: 1.4rem;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        margin-top: 30px;
+        margin-right: 30px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    nav li {
+        margin-left: 2rem;
+    }
+
+    nav a {
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 36px;
+        color: var(--db);
+        font-family: 'fredoka one', sans-serif;
+    }
+
+    .span{
+        display: none;
+    }
+    
+    /* top dox */
+
+    .quote-tekst{
+        margin-top: 200px;
+    }
+
+    .quote img{
+        height: 80vh;
+    }
+
+    .quote-tekst h1{
+        font-size: 4em;
+        margin-left: 120px;
+    }
+
+    .quote-tekst h2{
+        font-size: 2.5em;
+        width: 700px;
+        margin-left: 180px;
+    }
+
+    .quote-tekst hr{
+        margin-left: 200px;
+    }
+
+    .quote-tekst h3{
+        font-size: 2em;
+        margin-left: 150px;
+    }
+
+    .space-between{
+        width: 500px;
+        margin-top: 963px;
+        margin-left: 16rem;
+    }
+
+    /* genveje */
+    
+    .f-o{
+        font-size: 2.5em;
+    }
+
+    /* dukke */
+    
+
+    .pp{
+        margin: 90px
+    }
+
+    .pp img{
+        height: 30vh;
+    }
+
+    .pp p{
+        font-size: 30px;
+    }
+
+    .pp button{
+        font-size: 19px;
+        margin-left: 130px;
+    }
+
+    /* pc mand */
+    .tp{
+        margin: 90px;
+    }
+
+    .tp img{
+        height: 25vh;
+    }
+
+    .tp p{
+        font-size: 30px;
+    }
+
+    .tp button{
+        font-size: 19px;
+        margin-left: 130px;
+    }
+
+    /* hvem er jeg? */
+
+    .mig-side{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .mig-side img{
+        width: 60vw;
+        height: auto;
+        margin-bottom: 0;
+        margin-left: 200px;
+    }
+
+    .mig-side button{
+        font-size: 40px;
+        
+    }
+
+    /*footer*/
+    .main-footer-all{
+        display: unset;
+    }
+
+    .main-footer-all p{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .sociale-all{
+       text-align: center;
+       margin-top: 5px;
+    }
+
+    .fb-all{
+        height: 5.1vh;
+    }
+
+    .ig-all{
+        height: 4.8vh;
+    }
+
+    .li-all{
+        height: 3.9vh;
+    }
+
+    /*footer forsiden*/
+    
+    .footer-f img{
+        display: none;
+    }
+
+   /* portefølje startside */
+   /* overskrift */
+   .Portfolio-top h1{
+       font-size: 2.5em;
+   }
+
+   /*personlige projekter*/
+   .p-p h2{
+       font-size: 2em;
+   }
+
+   .img-size{
+       height: 300px;
+       margin-left: 80px;
+       margin-right: 80px;
+       background-position: center 85%;
+   }
+
+   /* projekter */
+   .t-p h2{
+       font-size: 2em;
+   }
+
+   .img-size2{
+       height: 300px;
+       margin-left: 80px;
+       margin-right: 80px;
+   }
+
+   /* personlige projekter */
+   .hjemmesider h2{
+       font-size: 2em;
+   }
+
+   .p-p1{
+       margin-left: 90px;
+       margin-right: 90px;
+   }
+
+   .p-p2{
+        margin-left: 90px;
+        margin-right: 90px;
+        background-position: center 10%;
+    }
+
+    .p-p3{
+        margin-left: 90px;
+        margin-right: 90px;
+        background-position: center 20%;
+    }
+
+    .p-p4{
+        margin-left: 90px;
+        margin-right: 90px;
+        background-position: center 58%;
+    }
+
+    .h-l-b{
+        background-position: center 20%;
+    }
+
+    .h-l-b3{
+        background-position: center 1%;
+    }
+
+    /*Rumrejsen*/
+
+    .dnr-r{
+        height: 400px;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    .dnr-t{
+        height: 300px;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    /*dans dans dans del 1*/
+
+    .B-R-T2{
+        height: 300px;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    /* dans dans dans del 2*/
+
+    .b-logo{
+        height: 405px;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    /* bag rettet del 1 */
+
+    .B-R-B{
+        background-position: center 15%;
+    }
+
+    .B-R-Logo{
+        height: 405px;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    /* video */
+
+    .v-p{
+        text-align: center;
+    }
+
+    iframe{
+        width: 600px;
+        height: 350px;
+    }
+
+    /* bag rettet del 2 */
+
+    .Bag-Rettet2-logo{
+        height: 405px;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    .br2s1{
+        height: 400px;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .br2s2{
+        height: 400px;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    /* OM MIG */
+
+    .about-me{
+        margin-top: 50px;
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+
+    .a-m-e p{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+}
