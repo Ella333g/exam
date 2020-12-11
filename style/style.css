@@ -128,6 +128,10 @@ padding-top: 88px;
     margin-top: 30px;
 }
 
+.sociale-all a{
+    text-decoration: none;
+}
+
 .fb-all{
     height: 7.5vh;
 }
@@ -158,8 +162,7 @@ footer hr{
 
 .fb{
     height: 7.5vh;
-    margin-bottom: 5px;
-    margin-top: 0;
+    padding-bottom: 6xp: 
 }
 
 .ig{
@@ -557,6 +560,10 @@ footer hr{
     margin: 30px;
 }
 
+.Bag-rettet-top{
+    margin-bottom: 5rem;
+}
+
 /* femte projekt (video projekt)*/
 /* Billedet */
 .h-l-b5{
@@ -606,6 +613,10 @@ footer hr{
     font-family: 'nunito', sans-serif;
     margin-left: 32px;
     margin-right: 32px;
+}
+
+.tekst a{
+    color: var(--db);
 }
 
 /* hr */
@@ -714,10 +725,19 @@ footer hr{
     margin-bottom: 5rem;
 }
 
-/* top */
+/* Billeder */
 .B-R-T{
     background-image: url(/img/dans.png);
     height: 290px;
+    background-size: cover;
+    background-position: center 0;
+    margin-bottom: 1rem;
+    margin: 30px;
+}
+
+.B-R-T2{
+    background-image: url(/img/mockup-dans.png);
+    height: 230px;
     background-size: cover;
     background-position: center 0;
     margin-bottom: 1rem;
@@ -743,6 +763,14 @@ footer hr{
 /* billede lavet i photoshop */
 .dnr-r{
     background-image: url(/img/Raket_sort.png);
+    height: 290px;
+    background-size: cover;
+    background-position: center center;
+    margin: 30px; 
+}
+
+.dnr-t{
+    background-image: url(/img/dnr-team.png);
     height: 290px;
     background-size: cover;
     background-position: center center;
