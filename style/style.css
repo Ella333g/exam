@@ -109,7 +109,7 @@ padding-top: 88px;
     right: 0;
     font-size: 24px;
     padding: 1.6rem;
-    color: var(grey);
+    color: grey;
 }
 
 /* footer */
@@ -162,7 +162,7 @@ footer hr{
 
 .fb{
     height: 7.5vh;
-    padding-bottom: 6xp; 
+    padding-bottom: 6px; 
 }
 
 .ig{
@@ -501,7 +501,7 @@ footer hr{
     background-image: url(/img/Rumraket.png);
     height: 200px;
     background-size: cover;
-    background-position: cover 60%;
+    background-position: center 60%;
     margin-bottom: 1rem;
     margin: 30px;
 }
@@ -542,7 +542,7 @@ footer hr{
     background-image: url(/img/dans.png);
     height: 200px;
     background-size: cover;
-    background-position: cover 60%;
+    background-position: center 60%;
     margin-bottom: 1rem;
     margin: 30px;
 }
@@ -553,7 +553,7 @@ footer hr{
     background-image: url(/img/dans\ 2.png);
     height: 200px;
     background-size: cover;
-    background-position: cover 60%;
+    background-position: center 60%;
     margin-bottom: 1rem;
     margin: 30px;
 }
@@ -564,7 +564,7 @@ footer hr{
     background-image: url(/img/bag\ rettet\ ekstra.png);
     height: 200px;
     background-size: cover;
-    background-position: cover 60%;
+    background-position: center 15%;
     margin-bottom: 1rem;
     margin: 30px;
 }
@@ -590,7 +590,7 @@ footer hr{
     background-image: url(/img/bag\ rettet.png);
     height: 200px;
     background-size: cover;
-    background-position: cover 60%;
+    background-position: center 19%;
     margin-bottom: 1rem;
     margin: 30px;
 }
@@ -604,7 +604,7 @@ footer hr{
     background-image: url(/img/bag\ rettet.png);
     height: 200px;
     background-size: cover;
-    background-position: cover 60%;
+    background-position: center 60%;
     margin-bottom: 1rem;
     margin: 30px;
 }
