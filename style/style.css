@@ -186,7 +186,7 @@ footer hr{
     display: flex;
     z-index: 1;
     position: absolute;
-    top: 151%;
+    top: 165%;
     margin-top: 700px;
 }
 
@@ -296,7 +296,7 @@ footer hr{
     padding: 10px;
 }
 
-.pp button{
+.pp h4{
     font-size: 17px;
     padding: 10px;
     color: var(--white);
@@ -307,6 +307,9 @@ footer hr{
     border-radius: 30px;
     margin-left: 5px;
     margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
 }
 
 /*Genveje til mine tidligere projekter*/
@@ -337,7 +340,7 @@ footer hr{
     margin-top: 4rem;
 }
 
-.tp button{
+.tp h4{
     font-size: 17px;
     padding: 10px;
     color: var(--white);
@@ -348,6 +351,9 @@ footer hr{
     border-radius: 30px;
     margin-left: 4px;
     margin-right: 4px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
 }
 
 /*Genvej til om mig*/
@@ -360,7 +366,7 @@ footer hr{
     height: 30vh;
 }
 
-.mig-side button{
+.mig-side h4{
     font-size: 17px;
     padding: 10px;
     color: var(--white);
@@ -369,6 +375,9 @@ footer hr{
     border-color: var(--db);
     border-width: 3px;
     border-radius: 30px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
 }
 
 /*portefølje*/
