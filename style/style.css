@@ -1019,8 +1019,31 @@ footer hr{
 
     /*footer forsiden*/
     
-    .footer-f img{
+    .footer-f .doodle{
         display: none;
+    }
+
+    .footer-f{
+        border-top: solid;
+        border-color: var(--db);
+    }
+
+    .tekst-footer{
+        display: unset;
+        z-index: unset;
+        position: unset;
+        top: unset;
+        margin-top: 0;
+    }
+
+    .footer-f p{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .sociale{
+        place-content: center;
+        margin-top: 0;
     }
 
    /* portefølje startside */
